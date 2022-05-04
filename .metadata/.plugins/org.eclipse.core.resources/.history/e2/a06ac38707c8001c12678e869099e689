@@ -1,0 +1,12 @@
+package com.d47g.servicio.usuarios.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.d47g.comunes.controller.GenericController;
+import com.d47g.comunes.models.entity.Usuario;
+import com.d47g.servicio.usuariosservices.UsuariosService;
+
+
+public class UsuariosController extends GenericController<Usuario, UsuariosService> {
+
+}

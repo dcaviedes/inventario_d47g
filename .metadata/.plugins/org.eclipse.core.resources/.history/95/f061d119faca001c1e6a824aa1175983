@@ -1,0 +1,46 @@
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedHeaders: "*"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+      routes:
+      - id: servicio-empresas
+        uri: lb://servicio-empresas
+        predicates:
+        - Path=/api/empresas/**
+        filters:
+        - StripPrefix=2
+      - id: servicio-proyectos
+        uri: lb://servicio-proyectos
+        predicates:
+        - Path=/api/proyectos/**
+        filters:
+        - StripPrefix=2
+      - id: servicio-eqipos
+        uri: lb://servicio-eqipos
+        predicates:
+        - Path=/api/equipos/**
+        filters:
+        - StripPrefix=2      
+      - id: servicio-usuarios
+        uri: lb://servicio-usuarios
+        predicates:
+        - Path=/api/usuarios/**
+        filters:
+        - StripPrefix=2      
+      - id: servicio-oauth
+        uri: lb://servicio-oauth
+        predicates:
+        - Path=/api/security/**
+        filters:
+        - StripPrefix=2   
+      
+ 

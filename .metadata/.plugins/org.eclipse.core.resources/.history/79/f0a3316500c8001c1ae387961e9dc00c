@@ -1,0 +1,5 @@
+package com.d47g.comunes.models.entity;
+
+public class Rol {
+
+}

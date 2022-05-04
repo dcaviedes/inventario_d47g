@@ -1,0 +1,23 @@
+package com.d47g.comunes.models.entity;
+
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Entity
+@Data
+@Table(name="usuarios")
+public class Usuario implements Serializable {
+	
+	private static final long serialVersionUID = 7681887271232517584L;
+	
+	@Id
+	private Long id;
+	private String nombre;
+
+}

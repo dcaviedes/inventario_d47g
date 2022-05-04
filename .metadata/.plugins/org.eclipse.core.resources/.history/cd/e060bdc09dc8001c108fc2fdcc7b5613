@@ -1,0 +1,13 @@
+package com.d47g.servicio.oauth;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class D47gServicioOauthApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(D47gServicioOauthApplication.class, args);
+	}
+
+}

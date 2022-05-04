@@ -1,0 +1,9 @@
+package com.d47g.gateway.security;
+
+import org.springframework.context.annotation.Configuration;
+
+//@Configuration
+//@EnableResourceServer extends ResourceServerConfigurerAdapter
+public class ResourceServerConfig {
+
+}

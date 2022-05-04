@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=d47g-servicio-empresas/\/Users\/diegocaviedes\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.6.3\/spring-data-commons-2.6.3.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.6.3=/=/maven.scope=/compile=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1650479427000"/>
+    <typeInfo handle="=d47g-servicio-empresas/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.d47g.empresas.services{EmpresaService.java[EmpresaService" modifiers="513" timestamp="1650571875000"/>
+    <typeInfo handle="=d47g-servicio-proyectos/\/Users\/diegocaviedes\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.6.4\/spring-data-commons-2.6.4.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.6.4=/=/maven.scope=/compile=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1650570597000"/>
+    <typeInfo handle="=d47g-comunes/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.d47g.comunes.services{GenericService.java[GenericService" modifiers="513" timestamp="1651098585000"/>
+</typeInfoHistroy>

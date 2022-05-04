@@ -1,0 +1,37 @@
+package com.d47g.comunes.models.entity;
+
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Entity
+@Data
+@Table(name="usuarios")
+public class Usuario implements Serializable {
+	
+	private static final long serialVersionUID = 7681887271232517584L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String nombre;
+	private String apellido;
+	
+	@Column(unique = true, length = 60)
+	private String password;
+	
+	@Column(unique = true, length = 20)
+	private String usuario;
+	
+	private String email;
+	private Boolean enable;
+
+}

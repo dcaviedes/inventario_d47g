@@ -1,0 +1,5 @@
+package com.d47g.servicio.usuarios.models.repository;
+
+public class UsuariosRepository {
+
+}

@@ -1,0 +1,5 @@
+package com.d47g.servicio.oauth.security;
+
+public class AuthorizationServerConfig {
+
+}
